@@ -10,3 +10,4 @@ requests
 psutil
 pyromod
 colorama
+aiohttp
