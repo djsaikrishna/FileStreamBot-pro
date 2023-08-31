@@ -130,5 +130,115 @@
             </div>
 
 </div>
+	    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        var div = document.getElementById('myDiv');
+        var text = div.textContent;
+
+        if(text.length > 60){
+            div.textContent = text.slice(0, 60)+"....";
+        }
+
+    </script>
+    <!--🥰  Thank you for giving me credit @LazyDeveloperr  🥰 -->
+    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
+	<script>
+        const controls = [
+            'play-large',
+            'rewind','play', 
+            'fast-forward', 
+            'progress', 
+            'current-time',
+            'duration',
+            'mute',
+            'volume',
+            'captions',
+            'settings',
+            'pip',
+            'airplay',
+            'download',
+            'fullscreen'
+        ];
+        document.addEventListener('DOMContentLoaded', () => {
+            const player = Plyr.setup('.player', { controls });
+        });
+
+    </script>
+    <!-- iterate animation -->
+
+
+
+
+    <!-- disabling right click -->
+    <script>
+        document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+    });
+    document.addEventListener('keydown', function (e) {
+        if (
+            e.key === 'F12' ||
+            (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+            (e.ctrlKey && e.key === 'u') ||
+            e.ctrlKey ||
+            e.shiftKey ||
+            e.altKey
+        ) {
+            e.preventDefault();
+        }
+    });
+    </script>
+    
+    
+    <!--🥰  Thank you for giving me credit @LazyDeveloperr  🥰 -->
+    <script>
+        const videolink = window.location.href;
+        const  lazyLink = videolink.replace("/watch/", "/");
+
+        function vlc_player() {
+            const openLazyLink = lazyLink;
+            const openVlc = `vlc://${openLazyLink}`;
+            window.location.href = openVlc;
+        }
+	    
+	function mx_player() {
+            const openLazyLink = lazyLink;
+            const openMx = `intent:${openLazyLink}#Intent;package=com.mxtech.videoplayer.ad;end`;
+            window.location.href = openMx;
+        }
+        
+	function playit_player() {
+    	const openLazyLink = lazyLink;
+    	const openPlayit = `playit://playerv2/video?url=${openLazyLink}`;
+   	 window.location.href = openPlayit;
+	}
+	    
+	function s_player() {
+            const openLazyLink = lazyLink;
+            const openSplayer = `intent:${openLazyLink}#Intent;action=com.young.simple.player.playback_online;package=com.young.simple.player;end`;
+            window.location.href = openSplayer;
+        }
+	    
+	function km_player() {
+           const openLazyLink = lazyLink;
+           const openKmplayer = `intent:${openLazyLink}#Intent;package=com.kmplayer;end`;
+           window.location.href = openKmplayer;
+        }
+        
+	function hd_player() {
+           const openLazyLink = lazyLink;
+           const openHDplayer = `intent:${openLazyLink}#Intent;package=uplayer.video.player;end`;
+           window.location.href = openHDplayer;
+        }
+	    
+        function lazyDownload() {
+            const openLazyLink = lazyLink;
+            window.location.href = openLazyLink;
+        }
+
+    </script>
+	
 </body>
 </html>
