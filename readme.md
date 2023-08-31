@@ -66,7 +66,7 @@
   If you are on Ubuntu, there's a 10 times easier way to deploy this bot. Just copy the command below and you're good to go.
   
   ```sh
-  apt-get update -y && apt-get upgrade -y && apt-get install curl -y && curl https://raw.githubusercontent.com/adarsh-goel/FileStreamBot-pro/main/script.sh -o script.sh && bash script.sh
+  apt-get update -y && apt-get upgrade -y && apt-get install curl -y && curl https://raw.githubusercontent.com/prajith2252/FileStreamBot-pro/main/script.sh -o script.sh && bash script.sh
   ```
 
   and to stop the whole bot,
