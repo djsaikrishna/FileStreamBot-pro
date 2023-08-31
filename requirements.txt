@@ -1,6 +1,6 @@
 pyrogram<=2.0.33
-tgcrypto<=1.2.3
-aiohttp<=3.8.5
+tgcrypto
+aiohttp
 python-dotenv<=0.20.0
 motor
 aiofiles
@@ -11,3 +11,8 @@ psutil
 pyromod
 colorama
 pyproject.toml
+marshmallow==3.14.1
+pytz
+dnspython
+pynewtonmath
+hachoir
