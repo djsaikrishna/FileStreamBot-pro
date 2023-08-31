@@ -43,7 +43,7 @@
             <div id="file-name" class="tex-center text-lg max:w-74  p-2 flex-wrap text-center justify-center items-center">
                 <p class="fw-bold"> 
                     <span id="myDiv" class="h6 flex-wrap text-center justify-center items-center card-title wow animate__animated animate__fadeInRight" >
-                        {{file_name}}
+                       %s
                     </span>
                 </p>
             </div>
@@ -52,6 +52,13 @@
          <div class="container">
         <tag src="%s" class="player"></tag>
     </div>
+	     <div class="justify-content-center align-items-center w-100 d-flex  flex-wrap">
+            <div class="lg:w-9/12 lg:px-12 lg:py-4 w-full  border border-danger wow animate__animated animate__fadeInLeft">
+                <video id="player" class="player " playsinline controls>
+                    <source src="{{file_url}}" type="video/mp4">
+                </video>
+            </div>
+        </div>
 
         <!-- External video player section -->
             <div class="justify-content-center align-items-center w-100 d-flex">
