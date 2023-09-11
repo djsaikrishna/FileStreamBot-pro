@@ -3,11 +3,11 @@
 <html lang="en">
 <head>
      <meta charset="UTF-8">
-    <link rel="shortcut icon" href="https://telegra.ph/file/b6f42af4d20b757b46d73.jpg" type="image/x-icon">
-    <meta property="og:image" content="https://telegra.ph/file/b6f42af4d20b757b46d73.jpg" itemprop="thumbnailUrl">
+    <link rel="shortcut icon" href="https://www.linkpicture.com/q/IMG_20230716_082042_361.jpg" type="image/x-icon">
+    <meta property="og:image" content="https://www.linkpicture.com/q/IMG_20230716_082042_361.jpg" itemprop="thumbnailUrl">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>%s TroopOriginals</title>
+    <title>%s</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>    
@@ -19,18 +19,33 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Delius">
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+	<!-- Add these lines to your HTML head section -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 
 <body class="bg-black">
     <header>
        
              <!-- web title -->
-                <div class="container-fluid">
-                    <a class="navbar-brand  text-light fw-bold " href="https://telegram.me/TroopOriginals">
+               <div class="container-fluid">
+                    <a class="navbar-brand  text-light fw-bold " href="https://telegram.me/TmaAdda">
                         <span class="bg-clip-text sm:text-[25px] text-[22px] text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-                            TroopOriginals
+                            Tma Adda
                           </span>
                     </a>
+		       
+		       <a href="#" class="text-light fs-4" text-right id="shareLink">
+    <div class="share-container">
+        <span class="bg-clip-text sm:text-[25px] text-[22px] text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+            Share
+        </span>
+        <i class="bi bi-share share-icon"></i>
+    </div>
+		       </a>
                   </div>
                </div>
     </header>
@@ -38,17 +53,22 @@
 
     <div class="bg-black  text-light"  >
         <!-- file Name -> to be displayed here  -->
-        <div class="justify-content-center align-items-center w-100 d-flex">
-            <div id="file-name" class="tex-center text-lg max:w-74  p-2 flex-wrap text-center justify-center items-center">
-                <p class="fw-bold"> 
-                    <span id="myDiv" class="h6 flex-wrap text-center justify-center items-center card-title wow animate__animated animate__fadeInRight" >
-                       %s
-                    </span>
-                </p>
-            </div>
+	    
+        <div class="justify-content-center align-items-center w-100 d-flex mb-3">
+                <div class="row d-flex w-100 justify-content-center align-items-center">
+			               
+                    <div class="col-lg-8 col-10  py-2 font-weight:bold text-center rounded-4 text-sm wow animate__animated animate__FadeIn">
+                         <strong>File Name :-</strong>
+			    <h4>%s</h4>
+                    </div>
+			   
+                </div>
+	</div>
         </div>
 
        
+
+	<!-- Video Player. -->
 	     <div class="justify-content-center align-items-center w-100 d-flex  flex-wrap">
             <div class="lg:w-9/12 lg:px-12 lg:py-4 w-full  border border-danger wow animate__animated animate__fadeInLeft">
                 <video id="player" class="player " playsinline controls>
@@ -101,27 +121,70 @@
                         </div>
                 </div>
             </div>
+	<!-- file name 😁 -->
+	    <div class="justify-content-center align-items-center w-100 d-flex mb-3">
+                <div class="row d-flex w-100 justify-content-center align-items-center">
+                    <div class="col-lg-5 col-10  py-2 text-center bg-success text-light rounded-4 text-sm wow animate__animated animate__FadeIn">
+                        Please Share our Bot to your Friend's 😀🙏...
+                    </div>
+                </div>
+	    </div>
             <div class="justify-content-center align-items-center w-100 d-flex mb-3">
                 <div class="row d-flex w-100 justify-content-center align-items-center">
-                    <div class="col-lg-8 col-10  py-2 text-center bg-danger rounded-4 text-sm wow animate__animated animate__FadeIn">
+                    <div class="col-lg-8 col-10  py-2 text-center bg-danger text-light rounded-4 text-sm wow animate__animated animate__FadeIn">
                             Video not playing ? possibly because your browser or the player doesn't support codec please download and watch.
                     </div>
                 </div>
             </div>
             <div class="justify-content-center align-items-center w-100 d-flex mb-3">
                 <div class="row d-flex w-100 justify-content-center align-items-center">
-                    <div class="col-lg-5 col-10  py-2 text-center bg-success rounded-4 text-sm wow animate__animated animate__FadeIn">
-                        If you find any broken links then please contact <a href="https://telegram.me/TroopQuries_Bot" class="text-[16px] font-bold underline active:text-blue-600">TroopOriginals Support</a>
+                    <div class="col-lg-5 col-10  py-2 text-center bg-success text-light rounded-4 text-sm wow animate__animated animate__FadeIn">
+                        If you find any broken links then please contact <a href="https://telegram.me/TMASupportBot" class="text-[16px] font-bold underline active:text-blue-600">TMA Support</a>
                     </div>
                 </div>
             </div>
 
     </div>
 
-        <footer class="bg-dark justify-content-around align-items-center">
+        <footer class="bg-black text-light justify-content-around align-items-center">
             <div class="container-fluid  justify-content-center align-itemsd x. -center">
                 <!-- Section: Social media -->
-               
+                <section class="lg:p-4 p-2 justify-content-center align-items-center text-center ">
+			<!-- Telegram -->
+                    <a class="btn btn-outline-light btn-floating m-1 rounded-circle p-2 border-secondary wow animate__animated animate__fadeInDown animate__delay-1s hover:shadow-md hover:shadow-gray-400 hover:translate-y-[-5px] transition transition-all duration-200" href="https://telegram.me/Tmaadda" target="_blank" role="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                        <linearGradient id="PMWUiMSnUf2R_PPJ6rqZea_44112_gr1" x1="32" x2="32" y1="10" y2="54.751" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#1a6dff"></stop><stop offset="1" stop-color="#c822ff"></stop></linearGradient><path fill="url(#PMWUiMSnUf2R_PPJ6rqZea_44112_gr1)" d="M25,2c12.703,0,23,10.297,23,23S37.703,48,25,48S2,37.703,2,25S12.297,2,25,2z M32.934,34.375	c0.423-1.298,2.405-14.234,2.65-16.783c0.074-0.772-0.17-1.285-0.648-1.514c-0.578-0.278-1.434-0.139-2.427,0.219	c-1.362,0.491-18.774,7.884-19.78,8.312c-0.954,0.405-1.856,0.847-1.856,1.487c0,0.45,0.267,0.703,1.003,0.966	c0.766,0.273,2.695,0.858,3.834,1.172c1.097,0.303,2.346,0.04,3.046-0.395c0.742-0.461,9.305-6.191,9.92-6.693	c0.614-0.502,1.104,0.141,0.602,0.644c-0.502,0.502-6.38,6.207-7.155,6.997c-0.941,0.959-0.273,1.953,0.358,2.351	c0.721,0.454,5.906,3.932,6.687,4.49c0.781,0.558,1.573,0.811,2.298,0.811C32.191,36.439,32.573,35.484,32.934,34.375z"></path>
+                    </svg>
+		    </a>
+		     <!-- Telegram 2 -->
+                    <a class="btn btn-outline-light btn-floating m-1 rounded-circle p-2 border-secondary wow animate__animated animate__fadeInDown animate__delay-1s hover:shadow-md hover:shadow-gray-400 hover:translate-y-[-5px] transition transition-all duration-200" href="https://telegram.me/TmaFilesBot" target="_blank" role="button"> 
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+                        <path fill="url(#PMWUiMSnUf2R_PPJ6rqZea_44112_gr1)" d="M25,2c12.703,0,23,10.297,23,23S37.703,48,25,48S2,37.703,2,25S12.297,2,25,2z M32.934,34.375	c0.423-1.298,2.405-14.234,2.65-16.783c0.074-0.772-0.17-1.285-0.648-1.514c-0.578-0.278-1.434-0.139-2.427,0.219	c-1.362,0.491-18.774,7.884-19.78,8.312c-0.954,0.405-1.856,0.847-1.856,1.487c0,0.45,0.267,0.703,1.003,0.966	c0.766,0.273,2.695,0.858,3.834,1.172c1.097,0.303,2.346,0.04,3.046-0.395c0.742-0.461,9.305-6.191,9.92-6.693	c0.614-0.502,1.104,0.141,0.602,0.644c-0.502,0.502-6.38,6.207-7.155,6.997c-0.941,0.959-0.273,1.953,0.358,2.351	c0.721,0.454,5.906,3.932,6.687,4.49c0.781,0.558,1.573,0.811,2.298,0.811C32.191,36.439,32.573,35.484,32.934,34.375z"></path>
+                    </svg>
+		    </a>
+			
+			
+                  </section>
+		   <!-- Partial why this,desc info -->
+		    <br />
+              <details>
+                <summary> <b> Why this? </b></summary>
+                <p>
+                  <a> 1. You can watch and download movies and webseries online for free. Check video and audio quanlity and even check for subtitles are present using available players. For dual Audio you can watch in your Audio by changing audio by using MX player, VLC player & Playit.</a> <br />
+                  <br />
+                  <a>
+                    <h7>2. Join us on Telegram to get more amazing movies like this: <a href="https://telegram.me/Tmaadda">Tmaadda</a></h7>
+                  </a>
+                </p>
+              </details>
+              <br />
+              <details>
+              <summary><b>Disclaimer</b></summary>
+              <br /> This website only provide service that help you play your video online without downloading. <br /> This website does not give you a storage/dissemination function. You can report the video that contains a problem like copyright, porn, violence, etc, <a href="https://telegram.me/Tmasupport_Bot" style="color: darkorange">
+                <b>Report</b>
+              </a>
+              </details>
+              <br />
 
                   <!-- For LazyDeveloper // credit --- Please don't remove footer credit -->
                       <div class="col-lg-2 col-4 justify-content-center align-items-center text-center mt-lg-0 mt-5  pt-lg-0 pt-4 wow animate__animated animate__fadeInUp">
@@ -138,7 +201,7 @@
                 <div class=" justify-center items-center text-center w-full text-center flex ">
                     <div  class="text-gray-400 text-center sm:-m-1 -ms-4 m-2 p-2">
                         <h5>
-                            <a class="font-bold" href="https://telegram.me/TroopOriginals" target="_blank">TroopOriginals : </a>Run and managed by <a href="https://telegram.me/TroopOriginals" target="_blank" class="bg-clip-text text-[16px] text-transparent bg-gradient-to-r from-orange-500 to-pink-500">TroopOriginals</a> 
+                            <a class="font-bold" href="https://telegram.me/Tmaadda" target="_blank">TmaAdda : </a>Run and managed by <a href="https://telegram.me/TmaSupportBot" target="_blank" class="bg-clip-text text-[16px] text-transparent bg-gradient-to-r from-orange-500 to-pink-500">TmaSupport</a> 
                             
                         </h5>
                     </div>
@@ -151,7 +214,7 @@
                 var theDate=new Date() 
                     document.write(theDate.getFullYear()) 
             </script> Copyright :
-                <a class="bg-clip-text text-[16px] text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold tracking-wide px-1" href="https://telegram.me/TroopOriginals">TroopOriginals</a>
+                <a class="bg-clip-text text-[16px] text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-bold tracking-wide px-1" href="https://telegram.me/TmaAdda">TmaSupport</a>
                 <!--🥰  Thank you for giving me credit @LazyDeveloperr  🥰 -->
                 All right reserved
             </div>   
@@ -172,7 +235,7 @@
 
     </script>
     <!--🥰  Thank you for giving me credit @LazyDeveloperr  🥰 -->
-    <script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+    <script src="https://cdn.plyr.io/3.6.9/plyr.js"></script>
 	<script>
         const controls = [
             'play-large',
@@ -181,13 +244,13 @@
             'progress', 
             'current-time',
             'duration',
+            'mute',
+            'volume',
             'fullscreen'
         ];
         document.addEventListener('DOMContentLoaded', () => {
             const player = Plyr.setup('.player', { controls });
         });
-		
-       
 
     </script>
     <!-- iterate animation -->
@@ -262,6 +325,51 @@
         }
 
     </script>
+	<script>
+  const shareButton = document.getElementById('shareLink');
+
+  // Check if the Web Share API is supported
+  if (navigator.share) {
+    shareButton.addEventListener('click', () => {
+      // Use the Web Share API
+	    const currentURL = window.location.href;
+	    const currentTitle = document.title;
+      navigator.share({
+        title: currentTitle,
+        text: 'Hello, I am sharing a movie click here to watch movie',
+        url: currentURL
+      })
+      .then(() => console.log('Shared successfully'))
+      .catch(error => console.error('Error sharing:', error));
+    });
+  } else {
+    // Fallback: Open a custom sharing dialog or provide links to share manually
+    shareButton.addEventListener('click', () => {
+      // Implement your custom sharing logic here
+      alert('Sharing not supported in this browser. You can manually share the content.');
+    });
+  }
+	</script>
+	<style>
+        /* Add CSS to position the share button at the top right corner of the screen */
+         .share-icon {
+        background: linear-gradient(10deg, #E53935, #8E24AA);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        display: inline-block;
+	 }
+		
+	#shareLink {
+            position: absolute;
+            top: 5px; /* Adjust the top position as needed */
+            right: 10px; /* Adjust the right position as needed */
+            z-index: 999; /* Adjust the z-index as needed */
+        }
+	</style>
+	
+
+
 
     <!--🥰  Thank you for giving me credit @LazyDeveloperr  🥰 -->
 </body>
