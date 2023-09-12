@@ -414,7 +414,7 @@ async def root_route_handler(_):
     <div class="wrapper">
       <div class="profile-card js-profile-card">
         <div class="profile-card__img">
-          <img src="https://www.linkpicture.com/q/IMG_20230716_082042_361.jpg" alt="profile card">
+          <img src="https://www.linkpicture.com/q/IMG_20230911_185814_299.jpg" alt="profile card">
         </div>
         <div class="profile-card__cnt js-profile-cnt">
           <div class="profile-card__name"><b>Troop<i> Originals</i></b></div>
