@@ -65,6 +65,23 @@
        
 
 	<!-- Video Player. -->
+	<style>
+		@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.blink-text {
+    animation: blink 1s infinite;
+}
+		</style>
 	     <div class="justify-content-center align-items-center w-100 d-flex  flex-wrap">
             <div class="lg:w-9/12 lg:px-12 lg:py-4 w-full  border border-danger wow animate__animated animate__fadeInLeft">
                 <video id="player" class="player " playsinline controls>
@@ -373,21 +390,7 @@
             right: 10px; /* Adjust the right position as needed */
             z-index: 999; /* Adjust the z-index as needed */
         }
-		@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.blink-text {
-    animation: blink 1s infinite;
-}
+		
 	</style>
 	
 
