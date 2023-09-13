@@ -65,23 +65,6 @@
        
 
 	<!-- Video Player. -->
-	<style>
-		@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.blink-text {
-    animation: blink 1s infinite;
-}
-		</style>
 	     <div class="justify-content-center align-items-center w-100 d-flex  flex-wrap">
             <div class="lg:w-9/12 lg:px-12 lg:py-4 w-full  border border-danger wow animate__animated animate__fadeInLeft">
                 <video id="player" class="player " playsinline controls>
@@ -89,13 +72,38 @@
                 </video>
             </div>
         </div>
-<div class="justify-content-center align-items-center w-100 d-flex mb-3">
-    <div class="row d-flex w-100 justify-content-center align-items-center">
-        <div class="col-lg-5 col-10 py-2 text-center bg-info text-light rounded-4 text-sm wow animate__animated animate__fadeIn blink-text">
-            Click To Visit TroopOriginals.site For More Movies/Series
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .blink-text {
+            animation: blink 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="justify-content-center align-items-center w-100 d-flex mb-3">
+        <div class="row d-flex w-100 justify-content-center align-items-center">
+            <div class="col-lg-5 col-10 py-2 text-center bg-info text-light rounded-4 text-sm wow animate__animated animate__fadeIn blink-text">
+                Click To Visit TroopOriginals.site For More Movies/Series
+            </div>
         </div>
     </div>
-</div>
+</body>
+</html>
+
 
 
 
