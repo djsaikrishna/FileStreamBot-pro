@@ -425,10 +425,20 @@ async def root_route_handler(_):
             
           
             <h2> Telegram Bot  - </h2>
-            <a href="https://telegram.me/Troop_FilesBot" class="profile-card-social__item telegram" target="_blank">
+            <a href="https://telegram.me/TroopFiless_Bot" class="profile-card-social__item telegram" target="_blank">
               <span class="icon-font">
                 <svg class="icon">
                   <use xlink:href="#icon-telegram"></use>
+                </svg>
+              </span>
+            </a>
+          </div>
+          <div class="profile-card-social">
+            <h2> Our Website - </h2>
+            <a href="www.Trooporiginals.site" class="profile-card-social__item link" target="_blank">
+              <span class="icon-font">
+                <svg class="icon">
+                  <use xlink:href="#icon-link"></use>
                 </svg>
               </span>
             </a>
