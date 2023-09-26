@@ -435,7 +435,7 @@ async def root_route_handler(_):
           </div>
           <div class="profile-card-social">
             <h2> Our Website - </h2>
-            <a href="www.Trooporiginals.site" class="profile-card-social__item link" target="_blank">
+            <a href="https://www.Trooporiginals.site" class="profile-card-social__item link" target="_blank">
               <span class="icon-font">
                 <svg class="icon">
                   <use xlink:href="#icon-link"></use>
