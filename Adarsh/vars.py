@@ -12,7 +12,7 @@ class Var(object):
     API_ID = int(getenv('API_ID','26842016'))
     API_HASH = str(getenv('API_HASH','3b841db9fa1b140e44f60cc033716f5c'))
     BOT_TOKEN = str(getenv('BOT_TOKEN','5192052745:AAG1q_dvJ440ajk94cMxIbnMrMjnU5yf76o'))
-    name = str(getenv('name', 'filetolinkbot'))
+    name = str(getenv('name', 'TmaGdriveBot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL',-1001870465424))
@@ -29,7 +29,7 @@ class Var(object):
     
     else:
         ON_HEROKU = False
-    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN','82.165.5.85') else APP_NAME+'.herokuapp.com'
+    FQDN = "82.165.5.85" #(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN','82.165.5.85') else APP_NAME+'.herokuapp.com'
     HAS_SSL=bool(getenv('HAS_SSL',False))
     if HAS_SSL:
         URL = "https://{}/".format(FQDN)
