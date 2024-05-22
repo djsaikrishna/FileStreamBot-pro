@@ -11,8 +11,8 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID','26842016'))
     API_HASH = str(getenv('API_HASH','3b841db9fa1b140e44f60cc033716f5c'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN','5192052745:AAG1q_dvJ440ajk94cMxIbnMrMjnU5yf76o'))
-    name = str(getenv('name', 'TmaGdriveBot'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN','6186626066:AAFc_sAaDUZBKuXcXsYeLTxi7E575NpgT5M'))
+    name = str(getenv('name', 'manalinksbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL',-1001870465424))
